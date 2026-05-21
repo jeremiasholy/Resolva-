@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container { 
+    width: 1366px;
+    margin: 0 auto;
+}
+.conteudo {
+    display: inline;
+    text-align: center;
+    justify-content: space-between;
+}
+.conteudo .login-image{
+    margin: 120px auto 50px;
+    height:120px;
+    display: block;
+    justify-content: space-between;
+}
+h1{
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom:20px;
+}
+p{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 16px auto;
+    color:gray;
+}
+input ,button{
+    font-size: 16px;
+    margin:8px;
+    padding: 6px 16px;
+    width:360px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+.link {
+    margin-top: 10px;
+    margin-left: 217px;
+}
+.link a , .criar-conta a{
+    text-decoration: none;
+    color: rgb(90, 40, 152);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.criar-conta p{
+    font-size: 16px;
+}
+.link a:hover{
+    color:red;
+    transition: all 0.3s ease;
+}
+.criar-conta a:hover{
+    color:red;
+    transition: all 0.3s ease;
+}
+.button-A{
+    background-color: rgb(90, 40, 152);
+    color: white;
+    border: none;
+}
+.button-A:hover{
+    background-color: rgb(124, 54, 209);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(90, 40, 152);
+    transition: all 0.5s ease;
+}
+.button-B {
+    background-color: white;
+    color:grey;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 8px auto;
+}
+.button-B:hover{
+    background-color: rgb(70, 70, 224);
+    border:  1px solid rgb(70, 70, 224);
+    color:white;
+    transition: all 0.5s ease;
+}
+.button-B img{
+    width:40px;
+}
+.criar-conta {
+    margin: 80px auto;
+}
+.rodape {
+    margin: 130px auto;
+    font-size: 15px;
+}
